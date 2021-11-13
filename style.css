@@ -154,7 +154,7 @@ nav .close:hover div::after{
 	border-style: solid;
 	height: 3in;
 	width: 6in;
-	border-color: #000;
+	border-color: rgb(88, 86, 86);
 	margin-right: .5;
 	margin-bottom: 50px;
 	position: static;
@@ -162,4 +162,6 @@ nav .close:hover div::after{
 
 .card:hover {
 font-size: 150px;
+box-shadow: 0 0 11px rgb(102, 102, 98);
+
 }
