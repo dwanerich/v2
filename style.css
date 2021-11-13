@@ -12,7 +12,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 h1 {
@@ -149,19 +149,25 @@ nav .close:hover div::after{
   }
 }
 
+.apps {
+	display: flex;
+	align-items: flex-start;
+  	justify-content: center;
+}
+
 .card {
 	border-width: thin;
 	border-style: solid;
 	height: 3in;
-	width: 6in;
+	width: 5in;
 	border-color: rgb(88, 86, 86);
-	margin-right: .5;
+	margin-right: 10px;
 	margin-bottom: 50px;
 	position: static;
 }
 
 .card:hover {
-font-size: 150px;
+font-size: 75px;
 box-shadow: 0 0 11px rgb(102, 102, 98);
 
 }
