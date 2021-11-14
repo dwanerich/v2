@@ -12,7 +12,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 
 h1 {
@@ -165,14 +165,11 @@ nav .close:hover div::after{
 	margin-right: 15px;
 	margin-bottom: 15px;
 	position: static;
-	/* content-visibility: hidden; */
 }
 
 .card:hover {
 font-size: 50px;
 box-shadow: 0 0 11px rgb(102, 102, 98);
-content-visibility: hidden;
-
 }
 
 #img {
@@ -181,4 +178,13 @@ content-visibility: hidden;
 	height: 2.5in;
 	border-width: thin;
 	border-color: rbg(88,86,86);
+}
+
+.contact-icon {
+	height: 10hv;
+	width: 20vh;
+}
+.contact-icon:hover {
+	background-color: rgb(73, 73, 67);
+
 }
